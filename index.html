@@ -43,6 +43,7 @@
       font-size: 1em;
       border-radius: 8px;
       cursor: pointer;
+      margin-top: 10px;
     }
     section {
       padding: 50px 20px;
@@ -68,6 +69,14 @@
       border-radius: 12px;
     }
     .join-section input[type=email] {
+      padding: 12px;
+      width: 60%;
+      max-width: 300px;
+      margin-right: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .join-section input[type=text] {
       padding: 12px;
       width: 60%;
       max-width: 300px;
@@ -110,8 +119,8 @@
     <p>Get early access and help shape the future of AI-era safety.</p>
     <form  action="https://formspree.io/f/xpwdgnab"
   method="POST">
-      <input type="text" placeholder="Your Name">
-      <input type="email" placeholder="Your Email" required>
+      <input name="name" type="text" placeholder="Your Name">
+      <input name="email" type="email" placeholder="Your Email" required>
       <button type="submit" class="cta-button">Join the Waitlist</button>
     </form>
   </section>
